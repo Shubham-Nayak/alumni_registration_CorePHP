@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Registration Form</title>
+  </head>
+  <style type="text/css">
+    /*form{
+      position: relative;
+      justify-content: center;
+      margin: 0 auto;
+      background-color: #d6e4f5ab;
+      box-shadow: 0px 0px 5px 1px #eaba61b8;
+      padding: 10px;
+          padding: 15px;
+          width: 600px;
+    }*/
+    label{
+      font-weight: bold;
+
+
+
+    color: #2d2b5e;
+    font-size: 14px;
+
+    }
+    a{
+      height: 2px;
+      width: 20px;
+    }
+    li{
+      text-decoration: none;
+      margin: 5px;
+      list-style: none;
+      width: 40px;
+    }
+    h1{
+      text-align: center;
+    font-size: 30px;
+    
+    text-decoration: underline;
+    
+    color: #2d2b5e;
+    }
+    .logo{
+      position: relative;
+      align-content: center;
+      align-items: center;
+      width: 550px;
+      justify-content: center;
+
+    }
+    form{
+      width: 80%;
+      margin: 0 auto;
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 0px 0px 15px 0px #2d2b5e;
+    }
+    form:hover{
+      box-shadow: 0px 0px 15px 0px #9151ab;
+      border: none;
+
+
+    }
+
+  </style>
+  <body>
+    <div class="container-fluid ">
+      <div class="row">
+     <div class="col-lg-12 d-flex justify-content-center">
+            
+              <img src="images/logo.png " class="img-responsive logo ">
+                        
+          </div>
+ </div>
+
+    <form enctype='multipart/form-data' method="post" action="" class=" mt-4">
+  
+      <h1  >PERSONAL DATA FORM</h1>
+      
+
+
+<div class="form-group row mt-5">
+                            
+                                <label class="col-md-2  col-sm-12">Post applied for*</label>
+                                <div class="col-md-7  col-sm-12">
+                    <select class="custom-select form-control" name="post_applied" id="post-apply" required="">
+                        <option selected="" value="">Choose...</option>
+                        <option value="PRT">PRT</option>
+                        <option value="TGT">TGT</option>
+                        <option value="PGT">PGT</option>
+                        <option value="NON-TEACHING">NON-TEACHING</option>
+                    </select>
+                                </div>
+                                <label class="col-md-3 ">PRT/TGT/PGT/NON TEACHING</label>
+                            
+                  
+                    </div>
+
+    
+  <div class="form-group row">
+      <label for="inputFirstName" class="col-md-2">Name *</label>
+      <div class="col-md-10">
+      <input type="text" class="form-control" id="inputFirstName" name="name" placeholder="Name*">
+    </div>
+
+  </div>
+
+
+  <div class="form-group row">
+      <label for="inputFirstName" class="col-md-2">Father's Name *</label>
+      <div class="col-md-10">
+      <input type="text" class="form-control" id="inputFirstName" name="name" placeholder="Name*">
+    </div>
+</div>
+
+<div class="form-group row">
+          <label for="address" class="col-md-2 col-sm-12 col-form-label">Present Address*</label>
+          <div class="col-md-10  col-xs-12">
+            <input type="text" class="form-control" name="present_address" id="address" value="" placeholder="Present Address" required="">
+          </div>
+        </div>
+
+<div class="form-group row">
+          <label for="address" class="col-md-2 col-sm-12 col-form-label">Present Address*</label>
+          <div class="col-md-10  col-sm-12 ">
+            <input type="text" class="form-control" name="present_address" id="address" value="" placeholder="Present Address" required="">
+          </div>
+        </div>
+
+
+<div class="form-group row">
+            <label for="state" class="col-md-1 col-form-label">State*</label>
+            <div class="col-md-3 col-sm-12 ">
+              <select name="state" id="" class="getselectpicker form-control">
+<option value="" selected="selected">Select State</option>
+<option value="Andaman">Andaman &amp; Nicobar</option>
+
+<option value="Andhra">Andhra Pradesh</option>
+<option value="Arunachal">Arunachal Pradesh</option>
+<option value="Assam">Assam</option>
+<option value="Bihar">Bihar</option>
+<option value="Chandigarh">Chandigarh</option>
+<option value="Chhattisgarh">Chhattisgarh</option>
+<option value="Daman">Daman &amp; Diu</option>
+</select>
+ 
+            </div>
+          <label for="city" class="col-md-1  col-sm-12 col-form-label">City*</label>
+          <div class="col-md-3 col-sm-12 ">
+            <select name="city" id="" class="getselectpicker form-control">
+<option value="" selected="selected">Select City</option>
+</select>
+ 
+          </div>
+          
+          <label for="Pin" class="col-md-2 col-form-label">Pin Code *</label>
+          <div class="col-md-2  col-sm-12 col-xs-12">
+            <input type="text" class="form-control" name="pin" id=""  placeholder="Pin Code">
+          </div>
+        </div>
+
+
+
+  <div class="form-group row">
+          <label for="" class="col-lg-2  col-form-label">Phone No.(Mob.)*</label>
+          <div class="col-lg-4 ">
+            <input type="text" class="form-control" name="phone" id="" placeholder="Mobile Number" required>
+          </div>
+          <label for="State" class="col-lg-2  col-form-label">Other Number</label>
+          <div class="col-lg-4 ">
+            <input type="text" class="form-control" name="phone" id="" placeholder="Residential Number" required>
+          </div>
+        </div>
+ 
+<div class="form-group row">
+          <label class="col-md-2 form-label">E-Mail Id*</label>
+          <div class="col-md-10  ">
+            <input type="email" class="form-control" name="email" id="" value="" placeholder="E-Mail" required>
+          </div>
+        </div>
+
+
+        <div class="form-group row">
+          <label class="col-md-2  col-form-label">Marital Status*</label>
+          <div class="col-md-10  ">
+              <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" value="Single">
+                  <label class="custom-control-label" for="customRadioInline1">Single</label>
+              </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" value="Married">
+                  <label class="custom-control-label" for="customRadioInline2">Married</label>
+                  </div>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-md-2  col-form-label">Qualification*</label>
+          <div class="col-md-10 ">
+            <input type="text" class="form-control" name="qualifications" id="" value="" placeholder="Qualification" required>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-md-2  col-form-label">Can teach subject*(separate by comma)</label>
+          <div class="col-md-10 ">
+            <input type="text" class="form-control" name="sub" id="" value="" placeholder="Can teach subject" required>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-md-2 col-form-label">Classes*(separate by comma)</label>
+          <div class="col-md-10 ">
+            <input type="text" class="form-control" name="Class" id="" value="" placeholder="Class" required>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-md-2 col-form-label">Total experience*</label>
+          <div class="col-md-3 ">
+          
+              <select name="experience" class=" form-control" required="">
+                 <option selected="">In years</option>
+                 <option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+
+
+              </select>
+          </div>
+          <div class="col-md-3 ">
+              
+              <select name="experienceinmonth" class="form-control" required>
+                 <option selected="">In months</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+
+
+              </select>
+            
+          </div>
+        </div>
+
+
+        <div class="form-group row">
+          <label class="col-md-2 col-form-label">Current Salary </label>
+          <div class="col-md-10 ">
+            <input type="text" class="form-control" name="c_salary" id="" placeholder="Current Salary" required>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-md-2 col-form-label">Expected Salary*</label>
+          <div class="col-md-10 ">
+            <input type="text" class="form-control" name="e_salary" id="" value="" placeholder="Expected Salary">
+          </div>
+        </div>
+
+      <hr>
+                    <div class="row">
+              <div class="col-md-2" >
+                 <img>Upload Your Resume
+               </div>
+             <div class="col-md-6 " style="padding: 0px;">
+                <input class="form-control-file" name="file" id=""  type="file">
+            </div>
+              <div class="col-md-4 ">
+
+                <p>Note : (Only pdf,doc)</p>      
+             </div>
+</div>
+             <hr noshade="1" color="#9151ab">
+                    
+   <div class="form-group row">
+                                <label for="name" class="col-md-4  col-form-label">Extra-Curricular Activities Literary/ Cultural</label>
+                                <div class="col-md-8 ">
+                                    <input type="text" class="form-control" name="curriculam" id="" value="" placeholder="Extra-Curricular Activities">
+                                </div>
+                         </div>
+
+                         
+         <div class="row">
+            <div class="col-md-12  text-center">
+              <input type="submit" class="btn btn-primary" value="Submit">
+            </div>
+         </div>
+       </div></form></div></body>
+
+
+
+
+
+
+</form>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+</html>
